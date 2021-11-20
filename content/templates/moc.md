@@ -1,5 +1,5 @@
 ---
-title: "<% tp.system.prompt("Name of MOC?","", false) %>"
+title: "<% tp.file.title %>"
 creation date: <% tp.file.creation_date() %>
 ---
 <% tp.file.cursor() %>

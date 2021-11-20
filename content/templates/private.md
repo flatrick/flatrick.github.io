@@ -1,5 +1,5 @@
 ---
-title: "<% tp.system.prompt("Name of private note?","", false) %>"
+title: "<% tp.file.title %>"
 creation date: <% tp.file.creation_date() %>
 draft: true
 ---
