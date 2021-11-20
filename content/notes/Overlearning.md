@@ -8,10 +8,9 @@ Based on later findings in the 1900s and later, it is clear that *overlearning o
 **For long-term retention, [Spaced repetition](notes/Spaced-repetition.md) is one of the most efficient methods available, if not the most efficient one.**
 Combined with the knowledge of the [Forgetting Curve](notes/Forgetting-Curve.md), it is easy to see how [Spaced repetition](notes/Spaced-repetition.md) can be an efficient method for long-term memory retention.
 
-## Related notes
+# Sources
+- [Overlearning - Wikipedia](https://en.wikipedia.org/wiki/Overlearning)
 
+# Related
 - [Forgetting Curve](notes/Forgetting-Curve.md)
 - [Spaced repetition](notes/Spaced-repetition.md)
-
-## External sources
-- [Overlearning - Wikipedia](https://en.wikipedia.org/wiki/Overlearning)

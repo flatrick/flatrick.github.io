@@ -55,6 +55,34 @@
       },
       "openFile": true,
       "openFileInMode": "source"
+    },
+    {
+      "id": "7cfb004f-4905-44da-bece-d8659750131c",
+      "name": "Draft",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/draft.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source"
     }
   ],
   "macros": []

@@ -26,7 +26,9 @@ The amount of time is not fixed, but here are some guidelines:
  
  If you use more than 3 boxes, each new box would be a larger increment of time than the previous ones.
  
- ## Related notes
+ # Sources
+ - [Leitner system - Wikipedia](https://en.wikipedia.org/wiki/Leitner_system) 
  
+# Related
  - [Forgetting-Curve](notes/Forgetting-Curve.md)
  - [Spaced-repetition](notes/Spaced-repetition.md)

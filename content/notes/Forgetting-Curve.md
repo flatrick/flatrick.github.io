@@ -29,6 +29,12 @@ See figure below for a graphical representation of how much he could remember co
 > But by monitoring how much a student forgets, based on things such as topic, time of day, day of the week, how long the student has been studying
 > we might be able to identify a pattern for the unique student and thereby adapting the ***Spaced Repetition*** intervals to better suit their unique needs
 
-## Related 
+# Sources
+- [Forgetting Curve - Wikipedia](https://en.wikipedia.org/wiki/Forgetting_curve)
+- [Replication and Analysis of Ebbinghaus’ Forgetting Curve](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644)
+- [A History of Modern Psychology - DUANE P. SCHULTZ, SYDNEY ELLEN SCHULTZ](https://www.uv.mx/rmipe/files/2017/05/A-history-of-modern-psychology.pdf)
+- [How to combat the Forgetting Curve - Growth Engineering](https://youtu.be/D9INoIehPUE)
+
+# Related 
 - [Leitner system](notes/Leitner-system.md)
 - [Spaced repetition](notes/Spaced-repetition.md)

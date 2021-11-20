@@ -50,7 +50,13 @@ Everything has a context: a word in a sentence, a sentence in a paragraph, a par
 One way to minimize memory decay is to place the material you have studied firmly in your mind by reviewing it. After you finish reading the entire chapter, skim back over it and any notes you made. Now, without looking, recall the questions and answers that steered your reading. How much detail can you provide? What other questions could you (or your instructor) ask about this material? Can you provide answers to those? Can you determine how much more review you will need to master the concepts? One of the most significant steps to learning, is understanding how much you know and how well you know it. 
 Effective studying requires effective reading. Rather than getting "intellectual indigestion" reading straight through a chapter, stop to survey, question, read, recite, relate, and review to improve reading comprehension and course grades.
 
-# Related notes
-# External sources
+
+# Sources
 - [SQ3R](https://sv.wikipedia.org/wiki/SQ3R)
 - [SQ4R](https://brazosport.edu/programs/academics/Learning-Frameworks/SQ4R/index)
+
+# Related
+- [Overlearning](notes/Overlearning.md)
+- [Spaced repetition](notes/Spaced-repetition.md)
+- [Leitner system](notes/Leitner-system.md)
+- [Forgetting Curve](notes/Forgetting-Curve.md)

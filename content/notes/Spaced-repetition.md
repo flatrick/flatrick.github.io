@@ -4,7 +4,9 @@ creation date: 2021-11-20 21:31
 draft: true
 ---
 
-## Related notes
+# Sources
+
+# Related
 - [Leitner system](notes/Leitner-system.md)
 - [Forgetting Curve](notes/Forgetting-Curve.md)
-- [[Overlearning]]
+- [Overlearning](notes/Overlearning.md)
