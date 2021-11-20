@@ -1,10 +1,7 @@
 name: Patrik Mattsson
 enableToc: true
-description:
-  Here is the page description. This is an example Quartz site that details installation,
-  setup, customization, and troubleshooting for Quartz itself.
-page_title:
-  Quartz Example Page
+description: This page is my attempt to share whatever knowledge I come across to others.
+page_title: "flatrick's Digital Garden"
 links:
   - link_name: Twitter
     link: https://twitter.com/flatricko
