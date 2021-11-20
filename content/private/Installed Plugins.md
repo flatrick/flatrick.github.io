@@ -1,0 +1,2 @@
+- [Templater Docs](https://silentvoid13.github.io/Templater/docs/)
+- [QuickAdd](https://github.com/chhoumann/quickadd)

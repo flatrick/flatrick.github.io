@@ -1,23 +1,16 @@
-# 🌱 Quartz
-## v2.0
+# flatrick's Digital Garden
 
-Simple second brain and [digital garden](https://jzhao.xyz/posts/digital-gardening).
+Hi and welcome to my collections of thoughts and collected nuggets of information.
 
-## Why Quartz?
-Hosting a public digital garden isn't easy. There are an overwhelming number of tutorials, resources, and guides for tools like [Notion](https://www.notion.so/), [Roam](https://roamresearch.com/), and [Obsidian](https://obsidian.md/), yet none of them have super easy to use *free* tools to publish that garden to the world.
+I create notes using [Obsidian.md](https://www.obsidian.md), which are then are processed by [Quartz](https://github.com/jackyzha0/quartz) to convert these notes into what you see now.
 
-I've personally found that 
-1. It's nice to access notes from anywhere
-2. Having a public digital garden invites open conversations
-3. It makes keeping personal notes and knowledge *playful and fun*
+## The rabbit hole
+This collection of thoughts are written attempting to follow the idea of [[notes/Atomic Note|atomic notes]] so that each note is intended to be as small and concise as possible.
 
-> “He who works with the door open gets all kinds of interruptions, but he also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+I create bigger contexts for my notes by collecting them in special notes that acts like maps for the various contexts. This opens up the possibility for me to reuse a note in multiple contexts, without having to rewrite the information. 
 
-I was really inspired by [Bianca](https://garden.bianca.digital/) and [Joel](https://joelhooks.com/digital-garden)'s digital gardens and wanted to try making my own.
+I also create context for each individual note by attempting to link them to other notes that are relevant to the note, and this is where this system really starts shines for me. 
+It is through this particular aspect that any individual idea could possibly lead to entirely new insights when I find two topics I otherwise never would have thought of being related to each other.
 
-**The goal of Quartz is to make hosting your own public digital garden free and simple.** You don't even need your own website. Quartz does all of that for you and gives your own little corner of the internet.
-
-## Get Started
-The entire Quartz documentation is fully hosted using Quartz! To get started, let's visit the main directory.
-
-👉  [Directory](moc/directory.md)
+## Follow the white rabbit
+- [[moc/List of topics]]

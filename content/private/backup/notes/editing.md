@@ -8,14 +8,14 @@ Quartz runs on top of [Hugo](https://gohugo.io/) so all notes are written in [Ma
 ### Obsidian
 I *strongly* recommend using [Obsidian](http://obsidian.md/) as a way to edit and grow your digital garden. It comes with a really nice editor and graphical interface to preview all of my local files.
 
-**🔗 [How to link your Obsidian Vault](notes/obsidian.md)**
+**🔗 [How to link your Obsidian Vault](private/backup/notes/obsidian.md)**
 
 Of course, all the files are in Markdown so you could just use your favourite text editor of choice.
 
 ### Ignoring Files
 Only want to publish a subset of all of your notes? Don't worry, Quartz makes this a simple two-step process.
 
-❌ [Excluding pages from being published](notes/ignore-notes.md)
+❌ [Excluding pages from being published](private/backup/notes/ignore-notes.md)
 
 ### Folder Structure
 Here's a rough overview of what's what.
@@ -45,13 +45,13 @@ Rest of your content here...
 ## Previewing Changes
 This step is purely optional and mostly for those who want to see the published version of their digital garden locally before opening it up to the internet. This is *highly recommended*.
 
-👀 [Preview Quartz Changes](notes/preview-changes.md)
+👀 [Preview Quartz Changes](private/backup/notes/preview-changes.md)
 
 For those who like to live life more on the edge, viewing the garden through Obsidian gets you pretty close to the real thing.
 
 ## Publishing Changes
 Now that you know the basics of managing your digital garden using Quartz, you can publish it to the internet!
 
-🌍 [Hosting Quartz online!](notes/hosting.md)
+🌍 [Hosting Quartz online!](private/backup/notes/hosting.md)
 
-Having problems? Checkout our [FAQ and Troubleshooting guide](notes/troubleshooting.md).
+Having problems? Checkout our [FAQ and Troubleshooting guide](private/backup/notes/troubleshooting.md).
