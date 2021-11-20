@@ -13,4 +13,4 @@ I also create context for each individual note by attempting to link them to oth
 It is through this particular aspect that any individual idea could possibly lead to entirely new insights when I find two topics I otherwise never would have thought of being related to each other.
 
 ## Follow the white rabbit
-[[note]]
+[Note taking](moc/Note%20taking.md)
