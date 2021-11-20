@@ -8,13 +8,19 @@
 
 h1, h2, h3, h4, ol, ul, thead {
   font-family: Inter;
-  color: var(--dark)
+  color: var(--dark);
+  font-weight: revert;
+  margin: revert;
+  padding: revert;
 }
 
 p, ul, text {
   font-family: 'Source Sans Pro', sans-serif;
   color: var(--gray);
   fill: var(--gray);
+  font-weight: revert;
+  margin: revert;
+  padding: revert;
 }
 
 a {
@@ -242,13 +248,13 @@ header {
   flex-direction: row;
   align-items: center;
 
+  & > h1 {
+    font-size: 2em;
+  }
+
   & > nav {
     @media all and (max-width: 600px) {
       display: none;
-    }
-
-    & > a {
-      margin-left: 2em;
     }
   }
 
@@ -280,7 +286,8 @@ header {
   left: 0;
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  overflow: scroll;
   display: none;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -323,8 +330,20 @@ header {
         transition: background 0.2s ease;
         border: 1px solid var(--outlinegray);
         border-bottom: none;
+        width: 100%;
 
-        &:hover {
+        // normalize button props
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        overflow: visible;
+        text-transform: none;
+        text-align: left;
+        background: var(--light);
+        outline: none;
+
+        &:hover, &:focus {
           background: rgba(180, 180, 180, 0.15);
         }
 
