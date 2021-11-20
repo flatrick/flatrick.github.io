@@ -3,10 +3,7 @@ languageCode = "en-us"
 pygmentsUseClasses = true
 relativeURLs = true
 disablePathToLower = true
-ignoreFiles = [
-    "/content/templates/*",
-    "/content/private/*",
-]
+ignoreFiles = [ '/content/templates/*', '/content/private/*', ]
 
 [markup]
     [markup.tableOfContents]
