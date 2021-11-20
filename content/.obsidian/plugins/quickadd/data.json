@@ -1,0 +1,61 @@
+{
+  "choices": [
+    {
+      "id": "23574d45-b17e-4266-854b-b2eb3cd393e6",
+      "name": "Post",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/post.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": "{{DATE:YYYY-MM-DD_HHmmss}}.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source"
+    },
+    {
+      "id": "d38ed4fe-388a-4e93-b9ac-bc36c1515256",
+      "name": "MOC",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/moc.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": "{{DATE:YYYY-MM-DD_HHmmss}}.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "moc"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source"
+    }
+  ],
+  "macros": []
+}

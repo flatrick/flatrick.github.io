@@ -1,0 +1,8 @@
+{
+  "pinned": [
+    "obsidian-git:push",
+    "obsidian-git:commit-push-specified-message",
+    "graph:open",
+    "graph:open-local"
+  ]
+}

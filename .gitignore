@@ -2,6 +2,7 @@
 public
 resources
 .idea
-content/.obsidian
+content/.trash
+content/.obsidian/workspace
 data/linkIndex.yaml
 data/contentIndex.yaml

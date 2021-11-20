@@ -1,0 +1,17 @@
+{
+  "spellcheck": true,
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "useTab": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "notes/images",
+  "newFileFolderPath": "notes",
+  "useMarkdownLinks": true
+}
