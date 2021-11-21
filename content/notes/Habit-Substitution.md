@@ -9,4 +9,4 @@ draft: false
 -[30 One-Sentence Stories From People Who Have Built Better Habits](https://jamesclear.com/one-sentence-habits)
 # Related
 - [[Atomic Habits]]
-- [The-Three-R's-of-Habit-Change](notes/The-Three-R's-of-Habit-Change.md)
+- [The-Three-R_s-of-Habit-Change](notes/The-Three-R_s-of-Habit-Change.md)

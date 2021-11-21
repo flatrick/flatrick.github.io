@@ -14,5 +14,5 @@ draft: false
 - [Atomic Habits](notes/Atomic-Habits.md)
 - [Eat the frog](notes/Eat-the-frog.md)
 - [Habit Substitution](notes/Habit-Substitution.md)
-- [Premack's principle](notes/Premack's-principle.md)
-- [The Three R's of Habit Change](notes/The-Three-R's-of-Habit-Change.md)
+- [Premack's principle](notes/Premack_s-principle.md)
+- [The Three R's of Habit Change](notes/The-Three-R_s-of-Habit-Change.md)
