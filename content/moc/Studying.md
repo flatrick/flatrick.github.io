@@ -1,6 +1,7 @@
 ---
 title: "Studying"
 creation date: 2021-11-20 21:43
+draft: false
 ---
 
 - [Forgetting-Curve](notes/Forgetting-Curve.md)

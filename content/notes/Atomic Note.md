@@ -1,8 +1,9 @@
 ---
 title: "Atomic Note"
 creation date: 2021-11-20 18:34
+draft: false
 ---
-# Atomic Note
+
 An **Atomic Note** is a note on a single thought/idea.
 
 Consider these points when making a note:

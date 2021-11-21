@@ -6,3 +6,4 @@ content/.trash
 content/.obsidian/workspace
 data/linkIndex.yaml
 data/contentIndex.yaml
+.hugo_build.lock

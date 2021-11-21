@@ -1,6 +1,7 @@
 ---
 title: "Forgetting Curve"
 creation date: 2021-11-20 21:25
+draft: false
 ---
 
 The "Forgetting Curve" is a theory by **Hermann Ebbinghaus** produced during his studies on our ability to learn.

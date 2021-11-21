@@ -1,7 +1,9 @@
 ---
 title: "Overlearning"
 creation date: 2021-11-20 21:36
+draft: false
 ---
+
 Overlearning is when a student repeats the study of the material more times than is necessary to perfectly repeat the content from memory, as defined by **Hermann Ebbinghaus**.
 
 Based on later findings in the 1900s and later, it is clear that *overlearning only has any benefits for short-term memory retention*.

@@ -1,7 +1,9 @@
 ---
 title: "Leitner system"
 creation date: 2021-11-20 21:29
+draft: false
 ---
+
 The **Leitner System** is a methodology for [Spaced repetition](notes/Spaced-repetition.md)
 
 - Flashcards are sorted into groups according to how well the learner knows each one in the *Leitner's learning box(es)*

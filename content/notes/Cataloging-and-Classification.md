@@ -1,10 +1,9 @@
 ---
 title: "Cataloging & Classification"
 creation date: 2021-11-20 22:08
-draft: true
+draft: false
 ---
 
-# Cataloging & Classification
 - Tagging is very useful, but the lack of control and meaning breaks things down fast
 - A controlled term is worth a thousand tags
 - _Classification_ is **where things go**; either on a shelf or in a computer system and so on

@@ -1,6 +1,7 @@
 ---
 title: "SQxR"
 creation date: 2021-11-20 21:38
+draft: false
 ---
 
 _SQxR_ refers to the two acronyms [[SQxR#SQ3R]] and [[SQxR#SQ4R]] which are names of two related study methodologies.
