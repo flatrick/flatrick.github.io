@@ -2,7 +2,7 @@
 
 Hi and welcome to my collections of thoughts and collected nuggets of information.
 
-I write my notes using [Obsidian.md](https://www.obsidian.md), which are then are processed by [Quartz](https://github.com/jackyzha0/quartz) to convert these notes into what you see now.
+I write my notes using [Obsidian.md](https://www.obsidian.md), which then are processed by [Quartz](https://github.com/jackyzha0/quartz) to convert these notes into what you see now.
 
 ## The rabbit hole
 This collection of thoughts are written attempting to follow the idea of [Atomic Notes](notes/Atomic-Note.md), so most notes will be fairly short.
