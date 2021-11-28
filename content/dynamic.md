@@ -3,19 +3,21 @@ title: "DV-index"
 draft: true
 ---
 
-# Drafts
+# Note drafts
 
 ```dataview
 LIST
-FROM ""
+FROM "notes"
 AND -"templates"
 WHERE draft=true
 ```
 
-# Published
+# MOC drafts
 
 ```dataview
 LIST
-FROM ""
-WHERE draft=false
+FROM "moc"
+AND -"templates"
+WHERE draft=true
 ```
+
