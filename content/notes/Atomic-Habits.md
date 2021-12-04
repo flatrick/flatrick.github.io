@@ -28,7 +28,7 @@ draft: true
   - Making a habit attractive is vital, because **it is the expectation of a rewarding experience that drives us to act**
 - **Temptation bundling** is the act of combining the action of something we need to with one we want to do
   - Example: *watching Netflix (want to do)* **while working out (need to do)**
-    - [[Premack's principle]] 
+    - [Premack's principle](notes/Premacks-principle.md)
 
 ## 4 laws of Atomic Habits
 
