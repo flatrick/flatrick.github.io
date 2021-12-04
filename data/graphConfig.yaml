@@ -1,4 +1,4 @@
-enableLegend: true
+enableLegend: false
 enableDrag: true
 enableZoom: true
 paths:
