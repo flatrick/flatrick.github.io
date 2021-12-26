@@ -13,5 +13,7 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "notes/images",
   "newFileFolderPath": "notes",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "legacyEditor": false,
+  "livePreview": true
 }
