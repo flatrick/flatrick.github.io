@@ -6,6 +6,6 @@ draft: false
 
 This page serves as a central point to all my "maps" of various topics.
 
-- [Studying](moc/Studying.md)
-- [Note taking](moc/Note-taking.md)
-- [Habits and Willpower](moc/Habits-and-Willpower.md)
+- [Studying](notes/Studying.md)
+- [Note taking](notes/Note-taking.md)
+- [Habits and Willpower](notes/Habits-and-Willpower.md)

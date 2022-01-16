@@ -14,4 +14,3 @@ draft: false
 - [Merging library & information science and PKM - How Bri Watson uses Obsidian](https://www.youtube.com/watch?v=6vFRnKsNX3c&t=1324s)
 
 # Related
-- [[Johnny.Decimal]]
