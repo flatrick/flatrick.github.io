@@ -1,5 +1,6 @@
-# flatrick's Digital Garden
-
+---
+title: flatrick's Digital Garden
+---
 Hi and welcome to my collections of thoughts and collected nuggets of information.
 I write my notes using [Obsidian.md](https://www.obsidian.md), which are then processed by [Quartz](https://github.com/jackyzha0/quartz) to convert these notes into what you see now.
 
