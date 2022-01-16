@@ -13,4 +13,4 @@ I also create context for each individual note by attempting to link them to oth
 It is through this particular aspect that any individual idea could possibly lead to entirely new insights when I find two notes floating near each other that I otherwise never would have thought of having any relations to each other.
 
 ## Follow the white rabbit
-[00-TOC](notes/00-TOC.md)
+[List of Topics](notes/List%20of%20Topics.md)
