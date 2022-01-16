@@ -11,16 +11,35 @@
     }
 </style>
 <script>
-  const index = {{$.Site.Data.linkIndex.index}}
-  const links = {{$.Site.Data.linkIndex.links}}
-  const curPage = {{ strings.TrimRight "/" .Page.RelPermalink }}
+  const curPage = {{ strings.TrimRight "/" .Page.Permalink }}.replace({{strings.TrimRight "/" .Site.BaseURL }}, "")
   const pathColors = {{$.Site.Data.graphConfig.paths}}
+  let depth = {{$.Site.Data.graphConfig.depth}}
 
   const parseIdsFromLinks = (links) => [...(new Set(links.flatMap(link => ([link.source, link.target]))))]
 
+  const neighbours = new Set()
+  const wl = [curPage || "/", "__SENTINEL"]
+  if (depth >= 0) {
+    while (depth >= 0 && wl.length > 0) {
+      // compute neighbours
+      const cur = wl.shift()
+      if (cur === "__SENTINEL") {
+        depth--
+        wl.push("__SENTINEL")
+      } else {
+        neighbours.add(cur)
+        const outgoing = index.links[cur] || []
+        const incoming = index.backlinks[cur] || []
+        wl.push(...outgoing.map(l => l.target), ...incoming.map(l => l.source))
+      }
+    }
+  } else {
+    parseIdsFromLinks(links).forEach(id => neighbours.add(id))
+  }
+
   const data = {
-    nodes: parseIdsFromLinks(links).map(id => ({id})),
-    links,
+    nodes: [...neighbours].map(id => ({id})),
+    links: links.filter(l => neighbours.has(l.source) && neighbours.has(l.target)),
   }
 
   const color = (d) => {
@@ -69,10 +88,8 @@
   const width = document.getElementById("graph-container").offsetWidth
 
   const simulation = d3.forceSimulation(data.nodes)
-    .force("charge", d3.forceManyBody().strength(-20))
-    .force("link", d3.forceLink(data.links)
-      .id(d => d.id)
-    )
+    .force("charge", d3.forceManyBody().strength(-30))
+    .force("link", d3.forceLink(data.links).id(d => d.id))
     .force("center", d3.forceCenter());
 
   const svg = d3.select('#graph-container')
@@ -126,7 +143,7 @@
     .attr("fill", color)
     .style("cursor", "pointer")
     .on("click", (_, d) => {
-      window.location.href = {{.Site.BaseURL}} + d.id.replace(" ", "-").replace("%20", "-");
+      window.location.href = {{.Site.BaseURL}} + decodeURI(d.id).replace(/\s+/g, '-')
     })
     .on("mouseover", function (_, d) {
       d3.selectAll(".node")
@@ -137,7 +154,7 @@
       const neighbours = parseIdsFromLinks([...(index.links[d.id] || []), ...(index.backlinks[d.id] || [])])
       const neighbourNodes = d3.selectAll(".node").filter(d => neighbours.includes(d.id))
       const currentId = d.id
-      const links = d3.selectAll(".link").filter(d => d.source.id === currentId || d.target.id === currentId)
+      const linkNodes = d3.selectAll(".link").filter(d => d.source.id === currentId || d.target.id === currentId)
 
       // highlight neighbour nodes
       neighbourNodes
@@ -146,7 +163,7 @@
         .attr("fill", color)
 
       // highlight links
-      links
+      linkNodes
         .transition()
         .duration(200)
         .attr("stroke", "var(--g-link-active)")
@@ -165,9 +182,9 @@
         .attr("fill", color)
 
       const currentId = d.id
-      const links = d3.selectAll(".link").filter(d => d.source.id === currentId || d.target.id === currentId)
+      const linkNodes = d3.selectAll(".link").filter(d => d.source.id === currentId || d.target.id === currentId)
 
-      links
+      linkNodes
         .transition()
         .duration(200)
         .attr("stroke", "var(--g-link)")
@@ -184,7 +201,7 @@
   const labels = graphNode.append("text")
     .attr("dx", 12)
     .attr("dy", ".35em")
-    .text((d) => d.id.replace("%20", "-"))
+    .text((d) => content[decodeURI(d.id).replace(/\s+/g, '-')]?.title || "Untitled")
     .style("opacity", 0)
     .style("pointer-events", "none")
     .call(drag(simulation));

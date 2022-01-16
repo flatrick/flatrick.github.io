@@ -4,13 +4,12 @@
     {{$host := strings.TrimRight "/" $url.Path }}
     {{$curPage := strings.TrimPrefix $host (strings.TrimRight "/" .Page.RelPermalink) }}
     {{$inbound := index $.Site.Data.linkIndex.index.backlinks $curPage}}
+    {{$contentTable := $.Site.Data.contentIndex}}
     {{if $inbound}}
-    {{- range $inbound -}}
-        {{$src := index . "source"}}
-        {{$src = replace $src " " "-"}}
-
+    {{$cleanedInbound := apply (apply $inbound "index" "." "source") "replace" "." " " "-"}}
+    {{- range $cleanedInbound | uniq -}}
         <li>
-            <a href="{{$src}}">{{index . "source"}}</a>
+            <a href="{{.}}">{{index (index $contentTable .) "title"}}</a>
         </li>
     {{- end -}}
     {{else}}
