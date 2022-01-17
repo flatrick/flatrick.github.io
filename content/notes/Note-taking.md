@@ -5,5 +5,5 @@ draft: false
 ---
 
 - [Atomic Note](notes/Atomic-Note.md)
-- [Cataloging and Classification](notes/Cataloging-and-Classification.md)]
+- [Cataloging and Classification](notes/Cataloging-and-Classification.md)
 - [Smart Notes](notes/Smart-Notes.md)
