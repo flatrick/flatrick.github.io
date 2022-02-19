@@ -1,0 +1,838 @@
+{
+  "index": {
+    "links": {
+      "/": [
+        {
+          "source": "/",
+          "target": "/notes/Atomic-Note",
+          "text": "Atomic Notes"
+        },
+        {
+          "source": "/",
+          "target": "/notes/List-of-Topics",
+          "text": "List of Topics"
+        }
+      ],
+      "/notes/2-minute-rule": [
+        {
+          "source": "/notes/2-minute-rule",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        },
+        {
+          "source": "/notes/2-minute-rule",
+          "target": "/notes/5-minute-rule",
+          "text": "5-minute-rule"
+        }
+      ],
+      "/notes/40-percent-rule": [
+        {
+          "source": "/notes/40-percent-rule",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        }
+      ],
+      "/notes/5-minute-rule": [
+        {
+          "source": "/notes/5-minute-rule",
+          "target": "/notes/2-minute-rule",
+          "text": "2-minute-rule"
+        },
+        {
+          "source": "/notes/5-minute-rule",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        }
+      ],
+      "/notes/Eat-the-frog": [
+        {
+          "source": "/notes/Eat-the-frog",
+          "target": "/notes/2-minute-rule",
+          "text": "2-minute-rule"
+        },
+        {
+          "source": "/notes/Eat-the-frog",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        }
+      ],
+      "/notes/Forgetting-Curve": [
+        {
+          "source": "/notes/Forgetting-Curve",
+          "target": "/notes/Leitner-system",
+          "text": "Leitner system"
+        },
+        {
+          "source": "/notes/Forgetting-Curve",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        }
+      ],
+      "/notes/Habit-Substitution": [
+        {
+          "source": "/notes/Habit-Substitution",
+          "target": "/notes/Atomic-Habits",
+          "text": "Atomic-Habits"
+        },
+        {
+          "source": "/notes/Habit-Substitution",
+          "target": "/notes/The-Three-R_s-of-Habit-Change",
+          "text": "The-Three-R_s-of-Habit-Change"
+        }
+      ],
+      "/notes/Habits-and-Willpower": [
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/5-second-rule",
+          "text": "5 second rule"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/5-minute-rule",
+          "text": "5 minute rule"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/2-minute-rule",
+          "text": "2 minute rule"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/40-percent-rule",
+          "text": "40 percent rule"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Atomic-Habits",
+          "text": "Atomic Habits"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Eat-the-frog",
+          "text": "Eat the frog"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Habit-Substitution",
+          "text": "Habit Substitution"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Premacks-principle",
+          "text": "Premack's principle"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/The-Three-R_s-of-Habit-Change",
+          "text": "The Three R's of Habit Change"
+        }
+      ],
+      "/notes/Leitner-system": [
+        {
+          "source": "/notes/Leitner-system",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Leitner-system",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting-Curve"
+        },
+        {
+          "source": "/notes/Leitner-system",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced-repetition"
+        }
+      ],
+      "/notes/List-of-Topics": [
+        {
+          "source": "/notes/List-of-Topics",
+          "target": "/notes/Studying",
+          "text": "Studying"
+        },
+        {
+          "source": "/notes/List-of-Topics",
+          "target": "/notes/Note-taking",
+          "text": "Note taking"
+        },
+        {
+          "source": "/notes/List-of-Topics",
+          "target": "/notes/Habits-and-Willpower",
+          "text": "Habits and Willpower"
+        }
+      ],
+      "/notes/Note-taking": [
+        {
+          "source": "/notes/Note-taking",
+          "target": "/notes/Atomic-Note",
+          "text": "Atomic Note"
+        },
+        {
+          "source": "/notes/Note-taking",
+          "target": "/notes/Cataloging-and-Classification",
+          "text": "Cataloging and Classification"
+        },
+        {
+          "source": "/notes/Note-taking",
+          "target": "/notes/Smart-Notes",
+          "text": "Smart Notes"
+        }
+      ],
+      "/notes/Overlearning": [
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        }
+      ],
+      "/notes/Premacks-principle": [
+        {
+          "source": "/notes/Premacks-principle",
+          "target": "/notes/Atomic-Habits",
+          "text": "Atomic Habits"
+        }
+      ],
+      "/notes/SQxR": [
+        {
+          "source": "/notes/SQxR",
+          "target": "/",
+          "text": "SQ3R"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/",
+          "text": "SQ4R"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/Overlearning",
+          "text": "Overlearning"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Overlearning",
+          "text": "Overlearning"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Leitner-system",
+          "text": "Leitner system"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        }
+      ],
+      "/notes/Studying": [
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Leitner-system",
+          "text": "Leitner system"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Overlearning",
+          "text": "Overlearning"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/SQxR",
+          "text": "SQxR"
+        }
+      ],
+      "/notes/The-Three-R_s-of-Habit-Change": [
+        {
+          "source": "/notes/The-Three-R_s-of-Habit-Change",
+          "target": "/notes/Habit-Substitution",
+          "text": "Habit-Substitution"
+        }
+      ]
+    },
+    "backlinks": {
+      "/": [
+        {
+          "source": "/notes/SQxR",
+          "target": "/",
+          "text": "SQ3R"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/",
+          "text": "SQ4R"
+        }
+      ],
+      "/Overlearning": [
+        {
+          "source": "/notes/SQxR",
+          "target": "/Overlearning",
+          "text": "Overlearning"
+        }
+      ],
+      "/notes/2-minute-rule": [
+        {
+          "source": "/notes/5-minute-rule",
+          "target": "/notes/2-minute-rule",
+          "text": "2-minute-rule"
+        },
+        {
+          "source": "/notes/Eat-the-frog",
+          "target": "/notes/2-minute-rule",
+          "text": "2-minute-rule"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/2-minute-rule",
+          "text": "2 minute rule"
+        }
+      ],
+      "/notes/40-percent-rule": [
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/40-percent-rule",
+          "text": "40 percent rule"
+        }
+      ],
+      "/notes/5-minute-rule": [
+        {
+          "source": "/notes/2-minute-rule",
+          "target": "/notes/5-minute-rule",
+          "text": "5-minute-rule"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/5-minute-rule",
+          "text": "5 minute rule"
+        }
+      ],
+      "/notes/5-second-rule": [
+        {
+          "source": "/notes/2-minute-rule",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        },
+        {
+          "source": "/notes/40-percent-rule",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        },
+        {
+          "source": "/notes/5-minute-rule",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        },
+        {
+          "source": "/notes/Eat-the-frog",
+          "target": "/notes/5-second-rule",
+          "text": "5-second-rule"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/5-second-rule",
+          "text": "5 second rule"
+        }
+      ],
+      "/notes/Atomic-Habits": [
+        {
+          "source": "/notes/Habit-Substitution",
+          "target": "/notes/Atomic-Habits",
+          "text": "Atomic-Habits"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Atomic-Habits",
+          "text": "Atomic Habits"
+        },
+        {
+          "source": "/notes/Premacks-principle",
+          "target": "/notes/Atomic-Habits",
+          "text": "Atomic Habits"
+        }
+      ],
+      "/notes/Atomic-Note": [
+        {
+          "source": "/",
+          "target": "/notes/Atomic-Note",
+          "text": "Atomic Notes"
+        },
+        {
+          "source": "/notes/Note-taking",
+          "target": "/notes/Atomic-Note",
+          "text": "Atomic Note"
+        }
+      ],
+      "/notes/Cataloging-and-Classification": [
+        {
+          "source": "/notes/Note-taking",
+          "target": "/notes/Cataloging-and-Classification",
+          "text": "Cataloging and Classification"
+        }
+      ],
+      "/notes/Eat-the-frog": [
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Eat-the-frog",
+          "text": "Eat the frog"
+        }
+      ],
+      "/notes/Forgetting-Curve": [
+        {
+          "source": "/notes/Leitner-system",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting-Curve"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Forgetting-Curve",
+          "text": "Forgetting Curve"
+        }
+      ],
+      "/notes/Habit-Substitution": [
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Habit-Substitution",
+          "text": "Habit Substitution"
+        },
+        {
+          "source": "/notes/The-Three-R_s-of-Habit-Change",
+          "target": "/notes/Habit-Substitution",
+          "text": "Habit-Substitution"
+        }
+      ],
+      "/notes/Habits-and-Willpower": [
+        {
+          "source": "/notes/List-of-Topics",
+          "target": "/notes/Habits-and-Willpower",
+          "text": "Habits and Willpower"
+        }
+      ],
+      "/notes/Leitner-system": [
+        {
+          "source": "/notes/Forgetting-Curve",
+          "target": "/notes/Leitner-system",
+          "text": "Leitner system"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Leitner-system",
+          "text": "Leitner system"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Leitner-system",
+          "text": "Leitner system"
+        }
+      ],
+      "/notes/List-of-Topics": [
+        {
+          "source": "/",
+          "target": "/notes/List-of-Topics",
+          "text": "List of Topics"
+        }
+      ],
+      "/notes/Note-taking": [
+        {
+          "source": "/notes/List-of-Topics",
+          "target": "/notes/Note-taking",
+          "text": "Note taking"
+        }
+      ],
+      "/notes/Overlearning": [
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Overlearning",
+          "text": "Overlearning"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Overlearning",
+          "text": "Overlearning"
+        }
+      ],
+      "/notes/Premacks-principle": [
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/Premacks-principle",
+          "text": "Premack's principle"
+        }
+      ],
+      "/notes/SQxR": [
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/SQxR",
+          "text": "SQxR"
+        }
+      ],
+      "/notes/Smart-Notes": [
+        {
+          "source": "/notes/Note-taking",
+          "target": "/notes/Smart-Notes",
+          "text": "Smart Notes"
+        }
+      ],
+      "/notes/Spaced-repetition": [
+        {
+          "source": "/notes/Forgetting-Curve",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Leitner-system",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Leitner-system",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced-repetition"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Overlearning",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/SQxR",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        },
+        {
+          "source": "/notes/Studying",
+          "target": "/notes/Spaced-repetition",
+          "text": "Spaced repetition"
+        }
+      ],
+      "/notes/Studying": [
+        {
+          "source": "/notes/List-of-Topics",
+          "target": "/notes/Studying",
+          "text": "Studying"
+        }
+      ],
+      "/notes/The-Three-R_s-of-Habit-Change": [
+        {
+          "source": "/notes/Habit-Substitution",
+          "target": "/notes/The-Three-R_s-of-Habit-Change",
+          "text": "The-Three-R_s-of-Habit-Change"
+        },
+        {
+          "source": "/notes/Habits-and-Willpower",
+          "target": "/notes/The-Three-R_s-of-Habit-Change",
+          "text": "The Three R's of Habit Change"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "source": "/",
+      "target": "/notes/Atomic-Note",
+      "text": "Atomic Notes"
+    },
+    {
+      "source": "/",
+      "target": "/notes/List-of-Topics",
+      "text": "List of Topics"
+    },
+    {
+      "source": "/notes/2-minute-rule",
+      "target": "/notes/5-second-rule",
+      "text": "5-second-rule"
+    },
+    {
+      "source": "/notes/2-minute-rule",
+      "target": "/notes/5-minute-rule",
+      "text": "5-minute-rule"
+    },
+    {
+      "source": "/notes/40-percent-rule",
+      "target": "/notes/5-second-rule",
+      "text": "5-second-rule"
+    },
+    {
+      "source": "/notes/5-minute-rule",
+      "target": "/notes/2-minute-rule",
+      "text": "2-minute-rule"
+    },
+    {
+      "source": "/notes/5-minute-rule",
+      "target": "/notes/5-second-rule",
+      "text": "5-second-rule"
+    },
+    {
+      "source": "/notes/Eat-the-frog",
+      "target": "/notes/2-minute-rule",
+      "text": "2-minute-rule"
+    },
+    {
+      "source": "/notes/Eat-the-frog",
+      "target": "/notes/5-second-rule",
+      "text": "5-second-rule"
+    },
+    {
+      "source": "/notes/Forgetting-Curve",
+      "target": "/notes/Leitner-system",
+      "text": "Leitner system"
+    },
+    {
+      "source": "/notes/Forgetting-Curve",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced repetition"
+    },
+    {
+      "source": "/notes/Habit-Substitution",
+      "target": "/notes/Atomic-Habits",
+      "text": "Atomic-Habits"
+    },
+    {
+      "source": "/notes/Habit-Substitution",
+      "target": "/notes/The-Three-R_s-of-Habit-Change",
+      "text": "The-Three-R_s-of-Habit-Change"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/5-second-rule",
+      "text": "5 second rule"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/5-minute-rule",
+      "text": "5 minute rule"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/2-minute-rule",
+      "text": "2 minute rule"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/40-percent-rule",
+      "text": "40 percent rule"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/Atomic-Habits",
+      "text": "Atomic Habits"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/Eat-the-frog",
+      "text": "Eat the frog"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/Habit-Substitution",
+      "text": "Habit Substitution"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/Premacks-principle",
+      "text": "Premack's principle"
+    },
+    {
+      "source": "/notes/Habits-and-Willpower",
+      "target": "/notes/The-Three-R_s-of-Habit-Change",
+      "text": "The Three R's of Habit Change"
+    },
+    {
+      "source": "/notes/Leitner-system",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced repetition"
+    },
+    {
+      "source": "/notes/Leitner-system",
+      "target": "/notes/Forgetting-Curve",
+      "text": "Forgetting-Curve"
+    },
+    {
+      "source": "/notes/Leitner-system",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced-repetition"
+    },
+    {
+      "source": "/notes/List-of-Topics",
+      "target": "/notes/Studying",
+      "text": "Studying"
+    },
+    {
+      "source": "/notes/List-of-Topics",
+      "target": "/notes/Note-taking",
+      "text": "Note taking"
+    },
+    {
+      "source": "/notes/List-of-Topics",
+      "target": "/notes/Habits-and-Willpower",
+      "text": "Habits and Willpower"
+    },
+    {
+      "source": "/notes/Note-taking",
+      "target": "/notes/Atomic-Note",
+      "text": "Atomic Note"
+    },
+    {
+      "source": "/notes/Note-taking",
+      "target": "/notes/Cataloging-and-Classification",
+      "text": "Cataloging and Classification"
+    },
+    {
+      "source": "/notes/Note-taking",
+      "target": "/notes/Smart-Notes",
+      "text": "Smart Notes"
+    },
+    {
+      "source": "/notes/Overlearning",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced repetition"
+    },
+    {
+      "source": "/notes/Overlearning",
+      "target": "/notes/Forgetting-Curve",
+      "text": "Forgetting Curve"
+    },
+    {
+      "source": "/notes/Overlearning",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced repetition"
+    },
+    {
+      "source": "/notes/Overlearning",
+      "target": "/notes/Forgetting-Curve",
+      "text": "Forgetting Curve"
+    },
+    {
+      "source": "/notes/Overlearning",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced repetition"
+    },
+    {
+      "source": "/notes/Premacks-principle",
+      "target": "/notes/Atomic-Habits",
+      "text": "Atomic Habits"
+    },
+    {
+      "source": "/notes/SQxR",
+      "target": "/",
+      "text": "SQ3R"
+    },
+    {
+      "source": "/notes/SQxR",
+      "target": "/",
+      "text": "SQ4R"
+    },
+    {
+      "source": "/notes/SQxR",
+      "target": "/Overlearning",
+      "text": "Overlearning"
+    },
+    {
+      "source": "/notes/SQxR",
+      "target": "/notes/Overlearning",
+      "text": "Overlearning"
+    },
+    {
+      "source": "/notes/SQxR",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced repetition"
+    },
+    {
+      "source": "/notes/SQxR",
+      "target": "/notes/Leitner-system",
+      "text": "Leitner system"
+    },
+    {
+      "source": "/notes/SQxR",
+      "target": "/notes/Forgetting-Curve",
+      "text": "Forgetting Curve"
+    },
+    {
+      "source": "/notes/Studying",
+      "target": "/notes/Forgetting-Curve",
+      "text": "Forgetting Curve"
+    },
+    {
+      "source": "/notes/Studying",
+      "target": "/notes/Leitner-system",
+      "text": "Leitner system"
+    },
+    {
+      "source": "/notes/Studying",
+      "target": "/notes/Overlearning",
+      "text": "Overlearning"
+    },
+    {
+      "source": "/notes/Studying",
+      "target": "/notes/Spaced-repetition",
+      "text": "Spaced repetition"
+    },
+    {
+      "source": "/notes/Studying",
+      "target": "/notes/SQxR",
+      "text": "SQxR"
+    },
+    {
+      "source": "/notes/The-Three-R_s-of-Habit-Change",
+      "target": "/notes/Habit-Substitution",
+      "text": "Habit-Substitution"
+    }
+  ]
+}
