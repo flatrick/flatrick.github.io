@@ -1,7 +1,7 @@
 baseURL = "https://flatrick.github.io/"
 languageCode = "en-us"
 pygmentsUseClasses = true
-relativeURLs = true
+relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [ 
     '/content/templates/*',

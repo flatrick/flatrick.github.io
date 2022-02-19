@@ -1,10 +1,8 @@
 name: Patrik Mattsson
 enableToc: false
 enableLinkPreview: true
-description: 
-  This page is my attempt to share whatever knowledge I come across to others.
-page_title: 
-  "flatrick's Digital Garden"
+description: This page is my attempt to share whatever knowledge I come across to others.
+page_title: "flatrick's Digital Garden"
 links:
   - link_name: Twitter
     link: https://twitter.com/flatricko
