@@ -7,5 +7,5 @@ data/linkIndex.yaml
 data/contentIndex.yaml
 .hugo_build.lock
 content/.obsidian
-static/linkIndex.json
-static/contentIndex.json
+assets/indices/linkIndex.json
+assets/indices/contentIndex.json

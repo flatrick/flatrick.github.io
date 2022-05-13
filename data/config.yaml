@@ -1,6 +1,9 @@
 name: Patrik Mattsson
 enableToc: false
 enableLinkPreview: true
+enableLatex: true
+enableSPA: true
+enableContextualBacklinks: true
 description: This page is my attempt to share whatever knowledge I come across to others.
 page_title: "flatrick's Digital Garden"
 links:
