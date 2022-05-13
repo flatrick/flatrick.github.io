@@ -15,7 +15,7 @@ Here is a simple explanation of his findings:
 
 See figure below for a graphical representation of how much he could remember correctly
 
-![Graph of memory degradration](/content/notes/images/forgetting_curve.png)
+![Graph of memory degradration](/notes/images/forgetting_curve.png)
 
 ---
 
