@@ -5,7 +5,7 @@ draft: false
 ---
 
 **Programming by Wishful Thinking** is a development-style where you design a library/class/method by writing code as if the library/class/method already exists.
-The more convential way of writing code would put emphazis on just making the code work before attempting to use it, which would require the developer to build a mental picture of the end-result before starting to write any code.  
+The more conventional way of writing code would put emphasis on just making the code work before attempting to use it, which would require the developer to build a mental picture of the end-result before starting to write any code.  
 The idea is that by writing test-code that uses what you're about to develop, you will end up with code that is easier to use.
 
 *This style of development is a great way to do [[TDD]] and writing [[Unit Tests]].*  
