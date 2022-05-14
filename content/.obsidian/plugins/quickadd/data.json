@@ -85,5 +85,6 @@
       "openFileInMode": "source"
     }
   ],
-  "macros": []
+  "macros": [],
+  "inputPrompt": "single-line"
 }

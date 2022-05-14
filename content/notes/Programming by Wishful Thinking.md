@@ -17,8 +17,10 @@ To give a simple and clear example, let's say we want to develop a inventory of 
 Before we even start to write a single line of code on our inventory-application, we'll begin by writing code that uses our still un-written code.  
 I'll use [[xUnit]] and [[Fluent Assertions]] to write the **Wishful Thinking** code as  a unit test:
 
-```c#
+```csharp
+using System;
 using FluentAssertions;
+using WishfulThinking.Interfaces;
 using Xunit;
 
 namespace WishfulThinking.Tests
@@ -42,7 +44,7 @@ namespace WishfulThinking.Tests
 Based on this test, we have now defined that we want to be able to add books to the library by inserting title, author and the book's ISBN10/13 identification number.  
 And since coding against **Interfaces** gives us a lot more flexibility, we'll begin by creating one and adding our function **AddBook()** to it:
 
-```c#
+```Csharp
 namespace WishfulThinking.Interfaces
 {
     public interface ILibrary
@@ -54,7 +56,7 @@ namespace WishfulThinking.Interfaces
 
 And now we can create as many concrete implementations for this functionality that we need, for example, we might need different ones if we're using a SQL-database or a NoSQL-database.  
 To focus on the idea rather than this concrete implementation, I'll just store things in a `List<T>` and I'll just add a simple Entity-class for the books:
-```C#
+```Csharp
 using System.Collections.Generic;
 
 namespace WishfulThinking
