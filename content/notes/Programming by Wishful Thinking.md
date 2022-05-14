@@ -79,6 +79,14 @@ namespace WishfulThinking
         public string Author { get; set; }
         public string ISBN10 { get; set; }
         public string ISBN13 { get; set; }
+
+        public Book(string title, string author, string ISBN10, string ISBN13)
+        {
+            this.Title = title;
+            this.Author = author;
+            this.ISBN10 = ISBN10;
+            this.ISBN13 = ISBN13;
+        }
     }
 }
 ```
