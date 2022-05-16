@@ -5,24 +5,23 @@ draft: false
 ---
 
 **Programming by Wishful Thinking** is a development-style where you design a library/class/method by writing code as if the library/class/method already exists.
-The more conventional way of writing code would put emphasis on just making the code work before attempting to use it, which would require the developer to build a mental picture of the end-result before starting to write any code.  
+The more conventional way of writing code would put emphasis on just making the code work before attempting to use it, which would require the developer to build a mental picture of the end-result before starting to write any code.
 The idea is that by writing test-code that uses what you're about to develop, you will end up with code that is easier to use.
 
-*This style of development is a great way to do [[TDD]] and writing [[Unit Tests]].*  
+*This style of development is a great way to do [[TDD]] and writing [[Unit Testing|Unit Tests]].*
 *This style is also a variation of writing Top-Down programming.*
 
 ## Example
 
-To give a simple and clear example, let's say we want to develop a inventory of books for a library.  
-Before we even start to write a single line of code on our inventory-application, we'll begin by writing code that uses our still un-written code.  
-I'll use [[xUnit]] and [[Fluent Assertions]] to write the **Wishful Thinking** code as  a unit test:
+To give a simple and clear example, let's say we want to develop an inventory of books for a library.
+Before we even start to write a single line of code on our inventory-application, we'll begin by writing code that uses our still un-written code.
+I'll use [[xUnit]] and [[Fluent Assertions]] to write the **Wishful Thinking** code as an unit test:
 
-```csharp
+```Csharp
 using System;
 using FluentAssertions;
 using WishfulThinking.Interfaces;
 using Xunit;
-
 namespace WishfulThinking.Tests
 {
     public class LibraryTests
@@ -41,7 +40,7 @@ namespace WishfulThinking.Tests
 }
 ```
 
-Based on this test, we have now defined that we want to be able to add books to the library by inserting title, author and the book's ISBN10/13 identification number.  
+Based on this test, we have now defined that we want to be able to add books to the library by inserting title, author and the book's ISBN10/13 identification number.
 And since coding against **Interfaces** gives us a lot more flexibility, we'll begin by creating one and adding our function **AddBook()** to it:
 
 ```Csharp
@@ -55,10 +54,10 @@ namespace WishfulThinking.Interfaces
 ```
 
 And now we can create as many concrete implementations for this functionality that we need, for example, we might need different ones if we're using a SQL-database or a NoSQL-database.  
-To focus on the idea rather than this concrete implementation, I'll just store things in a `List<T>` and I'll just add a simple Entity-class for the books:
-```Csharp
-using System.Collections.Generic;
+To focus on the idea rather than this concrete implementation, I'll just store things in a `List<T>` and I'll add a simple class to define the book-objects:
 
+```Csharp 
+using System.Collections.Generic;
 namespace WishfulThinking
 {
     public class Library : ILibrary
@@ -95,9 +94,9 @@ namespace WishfulThinking
 
 We have now implemented the first parts of the class **Library** by :
 
-1. writing a test that expects it to behave in a certain way
-2. then creating an Interface that matches the input and out
-3. finally creating a concrete class that follows those expectations
+1. Writing a test that expects it to behave in a certain way
+2. Then creating an Interface that matches the input
+3. Finally creating a concrete class that follows those expectations
 
 In the example above, I wrote a single test that checks that the method doesn't throw any exceptions when I add a book, and it was intentionally kept simple.  
 You could write more tests for more functionality before you start writing the actual implementation, but doing it one step at a time will make it easier to handle any unexpected dependencies.
