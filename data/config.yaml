@@ -2,10 +2,15 @@ name: Patrik Mattsson
 enableToc: false
 enableLinkPreview: true
 enableLatex: true
+enableCodeBlockTitle: true
+enableCodeBlockCopy: true
 enableSPA: true
+enableFooter: true
 enableContextualBacklinks: true
-description: This page is my attempt to share whatever knowledge I come across to others.
-page_title: "flatrick's Digital Garden"
+description:
+  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
+  Wikilink support, backlinks, local graph, tags, and link previews.
+page_title: "🪴 Quartz 3.2"
 links:
   - link_name: Twitter
     link: https://twitter.com/flatricko
