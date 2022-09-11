@@ -11,12 +11,8 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: false
 enableSemanticSearch: false
-operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
-description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
-page_title:
-  "🪴 Quartz 3.3"
+description: My personal collection of thoughts and facts I find worth sharing.
+page_title: "Flatrick's Digital Garden"
 links:
   - link_name: Twitter
     link: https://twitter.com/flatricko
