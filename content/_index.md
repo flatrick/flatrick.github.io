@@ -7,6 +7,7 @@ I write my notes using [Obsidian.md](https://www.obsidian.md), which are then pr
 
 ## The rabbit hole
 
+
 This collection of thoughts are written attempting to follow the idea of [Atomic Notes](notes/Atomic-Note.md), so most notes will be fairly short.
 
 As such small notes won't provide much value on their own, I collect them in special notes that acts like maps over various topics. This opens up the possibility for me to reuse a note in multiple contexts, without having to rewrite the information.

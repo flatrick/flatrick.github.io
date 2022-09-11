@@ -4,13 +4,15 @@ enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
+enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
-page_title: "🪴 Quartz 3.2"
+enableRecentNotes: false
+enableGitHubEdit: false
+enableSemanticSearch: false
+description: My personal collection of thoughts and facts I find worth sharing.
+page_title: "Flatrick's Digital Garden"
 links:
   - link_name: Twitter
     link: https://twitter.com/flatricko
